@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.card {
+    width: 350px;
+    height: 600px;
+    background:lightblue;
+    border-radius: 20px 20px 20px 0 ;
+    border
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card .top-section {
+    background:palevioletred;
+    height: 33%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.h1 {
+    position: absolute;
+    top: 45%;
+    font-size: medium;
+    font-weight: 100;
+}
+.about {
+    position: absolute;
+    top: 48%;
+    font-size: medium;
+}
+.medals {
+    position: absolute;
+    top: 55%;
+    font-size: medium;
+}
+.given {
+    position: absolute;
+    top: 58%;
+    font-size: medium;
+    font-family: italic;
+}
+.personal {
+    position: absolute;
+    top: 72%;
+    font-size: medium;
+}
+.ul {
+    position: absolute;
+    top: 74%;
+    font-size: medium;
+    font-family: italic;
+}q
